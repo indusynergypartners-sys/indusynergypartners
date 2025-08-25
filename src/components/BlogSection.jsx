@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const API_BASE = "https://blog-backend-1-p3yg.onrender.com";
+const API_BASE = "https://backend-dw1x.onrender.com";
+
 const API_BLOGS_URL = `${API_BASE}/api/blogs`;
 
 const BlogSection = () => {
