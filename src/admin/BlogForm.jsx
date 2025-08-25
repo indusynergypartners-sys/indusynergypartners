@@ -7,7 +7,7 @@ import {
 
 import axios from 'axios';
 
-const API_BASE = 'https://blog-backend-1-p3yg.onrender.com/api';
+const API_BASE = 'https://backend-dw1x.onrender.com/api';
 const API_BASE_IMG = 'https://blog-backend-1-p3yg.onrender.com';
 
 
