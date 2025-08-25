@@ -13,7 +13,7 @@ import {
   Grid,
 } from '@mui/material';
 
-const API_BASE = 'https://blog-backend-1-p3yg.onrender.com';
+const API_BASE = 'https://backend-dw1x.onrender.com';
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
