@@ -6,7 +6,7 @@ import {
 } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-const API_BASE = 'https://blog-backend-1-p3yg.onrender.com';
+const API_BASE = 'https://backend-dw1x.onrender.com';
 
 export default function BlogPost() {
   const { slug } = useParams();
