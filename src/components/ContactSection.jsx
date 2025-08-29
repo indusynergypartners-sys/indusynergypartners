@@ -39,7 +39,7 @@ const ContactSection = () => {
     toast.info("Sending email...");
 
     try {
-      const res = await fetch("https://blog-backend-1-p3yg.onrender.com/api/mail", {
+      const res = await fetch("https://backend-dw1x.onrender.com/api/mail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
