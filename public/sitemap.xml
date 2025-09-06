@@ -6,11 +6,59 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+       <!-- Home -->
+  <url>
+    <loc>https://www.indussynergypartners.org/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://www.indussynergypartners.org/about</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://www.indussynergypartners.org/service</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://www.indussynergypartners.org/faq</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://www.indussynergypartners.org/contact</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://www.indussynergypartners.org/termsandconditions</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Blog Listing -->
+  <url>
+    <loc>https://www.indussynergypartners.org/blog</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Example Single Blog -->
+  <url>
+    <loc>https://www.indussynergypartners.org/blog/sample-post</loc>
+    <priority>0.5</priority>
+  </url>
 
 <url>
   <loc>https://www.indussynergypartners.org/</loc>
   <lastmod>2025-09-06T15:03:44+00:00</lastmod>
 </url>
+
 
 
 </urlset>
