@@ -1,0 +1,13 @@
+# Allow all search engines to crawl the main site
+User-agent: *
+Disallow: /admin/
+Disallow: /admin/blog
+Disallow: /admin/blog/*
+Allow: /
+
+# Block private/preloader assets if needed
+Disallow: /src/
+Disallow: /node_modules/
+
+# Add sitemap location (अगर sitemap.xml generate किया है)
+Sitemap: https://www.indussynergypartners.org/sitemap.xml
