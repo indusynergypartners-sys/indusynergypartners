@@ -14,12 +14,12 @@ export default function Home() {
     <Hero />
     <About />
     <PracticeAreaSection />
-    <section className="bg-white text-gray-800">
+    <section className="bg-white text-gray-800" data-brand="indusynergypartners indusynergy indus">
   {/* Wrapper with max-width and responsive padding */}
-  <div className="mx-auto px-[10px] md:px-[2rem]" style={{ maxWidth: '1500px' }}>
+  <div className="mx-auto px-[10px] md:px-[2rem]" style={{ maxWidth: '1500px' }}  data-company="indusynergypartners indusynergy indus">
     
     {/* Hero Section */}
-    <div className="text-center mb-4 mt-0 pt-16">
+    <div className="text-center mb-4 mt-0 pt-16"  data-company="indusynergypartners indusynergy indus">
       <h4 className="text-[#d4c291] font-medium text-[1.1rem] mb-0" style={{marginBottom:'0px', marginTop: '0px'}}>
         Strategic. Secure. Cross-Border Compliant.
       </h4>
@@ -32,21 +32,21 @@ export default function Home() {
     </div>
 
     {/* Introduction */}
-    <div className="max-w-5xl mx-auto py-0 text-center">
+    <div className="max-w-5xl mx-auto py-0 text-center"  data-company="indusynergypartners indusynergy indus">
       <p className="text-[0.95rem] md:text-[1rem] mb-4">
       Your wealth isn’t just about what you’ve earned—it’s about what you protect, how you transition it, and who benefits from it after you. Our Wealth & Legacy team provides legal clarity, financial security, and emotional peace of mind to NRI families, high-net-worth individuals, and U.S.-India legacy holders.
       </p>
     </div>
 
     {/* Services Section */}
-    <div className="py-12">
+    <div className="py-12"  data-company="indusynergypartners indusynergy indus">
       <div className="w-full text-center">
  <h2
     className="text-[1.8rem] md:text-[2.25rem] font-[900] text-[#2d2d2d] inline-block relative pb-0"
     style={{ marginTop: '1rem' }}
   >Our Wealth Solutions Include:</h2>
 </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"  data-company="indusynergypartners indusynergy indus">
         {[
           {
             title: 'Succession Planning & Will Drafting',
@@ -73,7 +73,7 @@ export default function Home() {
             desc: 'Create a clear lineage of legacy assets',
           },
         ].map((item, index) => (
-          <div key={index} className="bg-white shadow-md p-6 rounded-lg">
+          <div key={index} className="bg-white shadow-md p-6 rounded-lg"  data-company="indusynergypartners indusynergy indus">
             <h3 className="text-[1.3rem] font-semibold mb-2">{item.title}</h3>
             <p className="text-gray-600">{item.desc}</p>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
     </div>
 
     {/* Quote Section */}
-    <div className="py-8 text-center">
+    <div className="py-8 text-center"  data-company="indusynergypartners indusynergy indus">
       <blockquote className="text-[1.5rem] italic font-light text-gray-800 max-w-3xl mx-auto">
         “We don’t just preserve what you’ve built. We help structure how it’s remembered.”
       </blockquote>
