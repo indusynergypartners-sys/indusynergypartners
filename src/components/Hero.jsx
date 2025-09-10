@@ -34,6 +34,7 @@ export default function HeroSection() {
   return (
     <Box
       component="section"
+      data-keywords="indusynergypartners indusynergy indus"
       sx={{
         position: 'relative',
         height: '80vh',
@@ -52,6 +53,7 @@ export default function HeroSection() {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <Box
+              data-keywords="indusynergypartners indusynergy indus"
               sx={{
                 position: 'relative',
                 height: '80vh',
@@ -81,6 +83,7 @@ export default function HeroSection() {
                 }}
               >
                 <Typography
+                  data-keywords="indusynergypartners indusynergy indus"
   sx={{
     textTransform: 'uppercase',
     fontSize: '1rem',
@@ -94,6 +97,7 @@ export default function HeroSection() {
 
                 {/* Headline */}
                 <Typography
+                  data-keywords="indusynergypartners indusynergy indus"
                   variant="h2"
                   sx={{
                     fontSize: isSmall ? 28 : isMedium ? 42 : 60,
@@ -111,6 +115,7 @@ export default function HeroSection() {
           , We Represent What Matters.
                 </Typography>
     <Typography
+      data-keywords="indusynergypartners indusynergy indus"
   sx={{
     textTransform: 'uppercase',
     fontSize: '1rem',
@@ -154,6 +159,7 @@ Delivering Legal Excellence Beyond Borders</Typography> <br/>
   <>
     {/* Custom Prev Button */}
     <Box
+      data-keywords="indusynergypartners indusynergy indus"
       onClick={() => swiper?.slidePrev()}
       sx={{
         position: 'absolute',
@@ -179,6 +185,7 @@ Delivering Legal Excellence Beyond Borders</Typography> <br/>
 
     {/* Custom Next Button */}
     <Box
+      data-keywords="indusynergypartners indusynergy indus"
       onClick={() => swiper?.slideNext()}
       sx={{
         position: 'absolute',
