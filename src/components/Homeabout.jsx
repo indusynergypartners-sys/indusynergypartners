@@ -29,6 +29,7 @@ export default function AboutSection() {
           {/* Image Section first on mobile */}
           <Grid item xs={12} md={6} order={{ xs: 1, md: 1 }} sx={{ maxWidth: { md: '49vw' } }}>
             <Box
+              data-keywords="indusynergypartners indusynergy indus"
               sx={{
                 position: 'relative',
                 width: '100%',
@@ -37,6 +38,7 @@ export default function AboutSection() {
               }}
             >
               <Box
+                data-keywords="indusynergypartners indusynergy indus"
                 sx={{
                   position: 'relative',
                   '&::before': {
@@ -65,6 +67,7 @@ export default function AboutSection() {
           <Grid item xs={12} md={6} order={{ xs: 2, md: 2 }} sx={{ maxWidth: { md: '49vw' } }}>
             <Box>
               <Typography
+                data-keywords="indusynergypartners indusynergy indus"
                 variant="h4"
                 sx={{
                   color: '#282e3f',
@@ -78,6 +81,7 @@ export default function AboutSection() {
               </Typography>
 
               <Typography
+                data-keywords="indusynergypartners indusynergy indus"
                 sx={{
                   color: '#666',
                   fontSize: { xs: '1.2rem', md: '1.28rem' },
@@ -90,6 +94,7 @@ export default function AboutSection() {
               </Typography>
 
               <Typography
+                data-keywords="indusynergypartners indusynergy indus"
                 sx={{
                   color: '#666',
                   fontSize: { xs: '0.95rem', md: '1rem' },
@@ -101,6 +106,7 @@ export default function AboutSection() {
               </Typography>
 
               <Typography
+                data-keywords="indusynergypartners indusynergy indus"
                 sx={{
                   color: '#666',
                   fontSize: { xs: '0.95rem', md: '1rem' },
@@ -112,6 +118,7 @@ export default function AboutSection() {
               </Typography>
 
               <Typography
+                data-keywords="indusynergypartners indusynergy indus"
                 sx={{
                   color: '#666',
                   fontSize: { xs: '0.95rem', md: '1rem' },
