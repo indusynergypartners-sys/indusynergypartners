@@ -40,13 +40,14 @@ const services = [
 
 export default function PracticeAreaSection() {
   return (
-   <section className="bg-[#f8f6f2] py-16 pb-24 mb-0">
+   <section className="bg-[#f8f6f2] py-16 pb-24 mb-0" data-keywords="indusynergypartners indusynergy indus">
   <div
     className="mx-auto px-[10px] md:px-[2rem]"
     style={{ maxWidth: '1500px', marginTop: '0px' }}
+    data-keywords="indusynergypartners indusynergy indus"
   >
     {/* Section Heading */}
-    <div className="text-center mb-12">
+    <div className="text-center mb-12" data-keywords="indusynergypartners indusynergy indus">
       <h4 className="text-[#d4c291] font-medium text-[1.1rem] mb-0" style={{marginBottom:'0px'}}>Our Services</h4>
     <h2
   className="text-[1.8rem] md:text-[2.25rem] font-[900] text-[#2d2d2d] inline-block relative pb-2"
@@ -59,7 +60,7 @@ export default function PracticeAreaSection() {
     </div>
 
     {/* Cards Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6" data-keywords="indusynergypartners indusynergy indus">
       {services.map(({ icon, title, description }, index) => (
         <div
           key={index}
@@ -74,7 +75,7 @@ export default function PracticeAreaSection() {
             {title}
             <span className="block w-7 h-[3px] bg-[#d4c291] mt-1 rounded"></span>
           </h3>
-<ul className="text-[0.95rem] md:text-[1rem] text-[#666] leading-relaxed list-disc pl-5 space-y-1">
+<ul className="text-[0.95rem] md:text-[1rem] text-[#666] leading-relaxed list-disc pl-5 space-y-1" data-keywords="indusynergypartners indusynergy indus">
             {description.map((point, idx) => (
               <li key={idx}>{point}</li>
             ))}
