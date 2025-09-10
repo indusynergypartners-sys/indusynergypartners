@@ -31,6 +31,7 @@ const FounderCard = ({ founder, reverse }) => {
   return (
     <Fade in={inView} timeout={800}>
       <Paper
+        data-keywords="indusynergypartners indusynergy indus"
         elevation={4}
         ref={ref}
         sx={{
@@ -47,6 +48,7 @@ const FounderCard = ({ founder, reverse }) => {
         }}
       >
         <Box
+          data-keywords="indusynergypartners indusynergy indus"
           component="img"
           src={founder.image}
           alt={founder.alt}
@@ -60,7 +62,7 @@ const FounderCard = ({ founder, reverse }) => {
             flexShrink: 0,
           }}
         />
-        <Box sx={{ flex: 1 }}>
+        <Box data-keywords="indusynergypartners indusynergy indus" sx={{ flex: 1 }}>
           <Typography variant="h4" fontWeight="700" gutterBottom>
             {founder.name}
           </Typography>
@@ -72,6 +74,7 @@ const FounderCard = ({ founder, reverse }) => {
             {founder.title}
           </Typography>
           <Typography
+            data-keywords="indusynergypartners indusynergy indus"
             variant="body1"
             fontStyle="italic"
             color="text.secondary"
@@ -94,6 +97,7 @@ export default function FoundersSection() {
 
   return (
     <Box
+      data-keywords="indusynergypartners indusynergy indus"
       sx={{
         bgcolor: 'white',
         py: { xs: 8, md: 16 },
@@ -103,6 +107,7 @@ export default function FoundersSection() {
       }}
     >
    <Typography
+     data-keywords="indusynergypartners indusynergy indus"
                   variant="h4"
                   sx={{
                     color: '#282e3f',
