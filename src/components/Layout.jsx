@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <main className="min-h-screen  bg-white">{children}</main>
+      <main data-keywords="indusynergypartners indusynergy indus" className="min-h-screen  bg-white">{children}</main>
       <Footer />
     </>
   );
